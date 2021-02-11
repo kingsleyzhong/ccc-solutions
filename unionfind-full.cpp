@@ -1,3 +1,11 @@
+/*
+Union Find Disjoint Set Data Structure
+
+Most useful for Krukal's MST Algorithm
+*/
+
+
+
 #include <vector>
 using namespace std;
 
