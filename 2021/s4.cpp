@@ -6,7 +6,7 @@ Things to Notice + Ideas:
 - What that tells us is that we can split up this problem into 2 parts, one is calculating walkway distance which will never change and the other is calulating the distance for each day. Note that you only need to change 2 things each day because all you're doing is swapping stations.
 
 
-WATCH YOUTUBE VIDEO FOR FULL EXPLANATION
+WATCH YOUTUBE VIDEO FOR FULL EXPLANATION : https://youtu.be/23gq6BlfJU4
 
 I'm 1-indexing everything because it's much easier to work with.
 */
