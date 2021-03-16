@@ -82,8 +82,8 @@ int main(){
         // Get old distance and remove from multiset
         int station1OldDist = station1-1 + wdist[subwayline[station1]];
         int station2OldDist = station2-1 + wdist[subwayline[station2]];
-        culdist.erase(station1OldDist);
-        culdist.erase(station2OldDist);
+        cdist.erase(cdist.find(station1OldDist));        
+        cdist.erase(cdist.find(station2OldDist)); 
 
         // Swap opreration
         swap(subwayline[station1], subwayline[station2]);
